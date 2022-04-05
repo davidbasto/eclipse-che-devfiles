@@ -1,4 +1,4 @@
-apiVersion: 1.0.0
+schemaVersion: 2.1.0
 metadata:
   name: java-wildfly
 projects:
@@ -12,6 +12,11 @@ projects:
       location: 'https://github.com/davidbasto/frontend-app-teste.git'
       startPoint: angular-11
       type: git
+starterProjects:
+  - name: "backend-app-teste"
+    description: "Projeto de teste - backend"
+  - name: "frontend-app-teste"
+    description: "Projeto de teste - backend"      
 components:
   - id: redhat/java11/latest
     type: chePlugin
