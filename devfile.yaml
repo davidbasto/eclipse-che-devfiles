@@ -2,6 +2,13 @@ schemaVersion: 2.1.0
 metadata:
   name: java-wildfly-angular
   namespace: admin-che
+attributes:
+  .vscode/extensions.json: |
+    {
+      "recommendations": [
+        "redhat.java"
+      ]
+    }  
 projects:
   - git:
       checkoutFrom:
